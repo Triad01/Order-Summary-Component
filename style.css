@@ -59,8 +59,8 @@ background:hsl(225, 100%, 94%);
     border-radius:10px;
 }
 .sub-plan img{
-    width:20%;
-    height:48px;
+    width:40px;
+    height:40px;
     padding-right:0;
 }
 .sub-plan div{
@@ -71,10 +71,12 @@ background:hsl(225, 100%, 94%);
 .sub-plan div h2{
     font-weight:900;
     color:hsl(223, 47%, 23%);
+    font-size:10px;
 }
 .sub-plan div p{
     font-weight:700;
     color:hsl(224, 23%, 55%);
+    font-size:12px;
 }
 .sub-plan a{    
     padding-left:20px;
@@ -83,7 +85,6 @@ background:hsl(225, 100%, 94%);
 }
 .sub-plan a:hover{
     color:hsl(245, 75%, 52%);
- font-size:8px;
     font-weight:400;
 }
 
@@ -124,9 +125,14 @@ background:hsl(225, 100%, 94%);
 
 @media(min-width:300px){
     .container{
-       width:50%;
+       width:70%;
        margin:50px auto;
       
+    }
+}
+@media(min-width:550px){
+    .container{
+        width:50%;
     }
 }
 @media(min-width:800px){
